@@ -12,6 +12,13 @@
   letter-spacing: 3%;
 }
 
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .logo {
   color: #000000;
 
@@ -62,6 +69,7 @@
 
 /* hero */
 .hero {
+  text-align: center;
   background-color: #2f303a;
 }
 .hero-title {
@@ -71,7 +79,7 @@
   font-size: 44px;
   line-height: 1.4;
 
-  text-align: center;
+  margin-bottom: 30px;
   letter-spacing: 6%;
   text-transform: uppercase;
 }
@@ -85,14 +93,15 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 6%;
 }
 
+/* Преимущества */
 /* feature */
+
+.title {
+  margin-bottom: 10px;
+}
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -109,23 +118,38 @@
   line-height: 1.7;
 }
 
-/* section */
-.section-title {
+/* сфера деятельности */
+.section-title-work {
   color: var(--title-text-color);
 
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
 }
 
-/* сфера деятельности */
-
 /* Команда */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-title-team {
+  color: var(--title-text-color);
+
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
 
 .team-subtitle {
   color: var(--title-text-color);
 
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
