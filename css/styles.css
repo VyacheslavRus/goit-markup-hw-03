@@ -22,6 +22,9 @@
 .logo {
   color: #000000;
 
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
@@ -34,8 +37,40 @@
 
 /* site nav and connection link */
 
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.connection-link {
+  display: flex;
+  margin-left: auto;
+}
+
+.site-item {
+  margin-left: 50px;
+}
+
+.site-item:first-child {
+  margin-left: 0px;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;
@@ -44,8 +79,23 @@
   text-decoration: none;
 }
 
+.connection-item .link {
+  display: block;
+  margin-left: 50px;
+}
+
+.connection-item .link:first-child {
+  margin-left: 0;
+}
+
 .connection-link .link {
   color: var(--primary-text-color);
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 50px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,6 +120,7 @@
 /* hero */
 .hero {
   text-align: center;
+
   background-color: #2f303a;
 }
 .hero-title {
