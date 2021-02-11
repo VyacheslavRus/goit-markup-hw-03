@@ -13,7 +13,7 @@
 }
 
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .conteiner {
@@ -188,6 +188,11 @@
 }
 
 /* сфера деятельности */
+
+.work {
+  padding-bottom: 94px;
+}
+
 .section-title-work {
   color: var(--title-text-color);
 
@@ -213,12 +218,9 @@
 
 /* Команда */
 
-.section {
+.team-section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.section-box {
   background-color: #f5f4fa;
 }
 
@@ -282,6 +284,8 @@ footer {
 
   display: inline-block;
   margin-bottom: 20px;
+
+  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -289,6 +293,8 @@ footer {
 }
 
 .address-text {
+  color: #ffffff;
+
   margin-bottom: 9px;
 
   font-weight: 400;
@@ -375,11 +381,12 @@ footer {
   margin-top: 30px;
 }
 
+.project-subtitle {
+  padding: 20px 24px;
+}
+
 .projects-title {
   color: var(--title-text-color);
-
-  margin-top: 20px;
-  margin-left: 24px;
 
   font-weight: 700;
   font-size: 18px;
@@ -390,9 +397,6 @@ footer {
 
 .projects-text {
   color: var(--primary-text-color);
-
-  margin-top: 20px;
-  margin-left: 24px;
 
   font-weight: 400;
   font-size: 16px;
